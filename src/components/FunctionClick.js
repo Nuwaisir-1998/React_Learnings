@@ -8,7 +8,6 @@ function FunctionClick() {
 
     return (
         <div>
-            {/* Don't do like onClick={clickHandler()}, it will call the function immediately*/}
             <button onClick={clickHandler}> Click </button>
         </div>
     )
